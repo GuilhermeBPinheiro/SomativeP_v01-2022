@@ -99,7 +99,7 @@ cd ensembl-vep-105.0/
 ```
 *Tempo de Instalação: ~30 segundos*
 
-> ## *material Fornecido*
+> ## *Material Fornecido*
 
 **C. Arquivo Fasta e referência Homo Sapiens**
 
@@ -135,7 +135,7 @@ Exemplo:
 
 > # **Alicação**
 
-> ## *Aplicar VEP para filtrar arquivo VCF*
+**Aplicar VEP para filtrar arquivo VCF**
 
 ```
 %%bash
