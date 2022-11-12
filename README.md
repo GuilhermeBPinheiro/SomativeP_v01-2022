@@ -27,7 +27,7 @@ SomatiVEP_v01 precisa ter as seguintes requisitos:
     - Espaço de armazenamento no Google Colab.
     - Referência do genoma que deseja estudar - no caso disponibilizamos para Homo Sapiens GRCh37 (Homo_sapiens_assembly19.fasta)
     
-**Tempo de duração para rodar o pipeline: *~25-30 minutos***
+**Tempo de duração para rodar o pipeline: *~20-25 minutos***
 
 > # **Preparação do Ambiente**
 
@@ -177,6 +177,9 @@ tabela = pd.read_csv('/content/drive/Shareddrives/T4-2022/GuilhermeBueno/NOVEMBR
 df = pd.DataFrame(tabela)
 df
 ```
+
+Exemplo:
+![image](https://user-images.githubusercontent.com/57289531/201492364-3c30a821-01c3-4e7b-bde0-a6de3054d5c7.png)
 
 > # **Contato**
 
