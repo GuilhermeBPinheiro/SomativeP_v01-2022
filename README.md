@@ -126,7 +126,7 @@ Seu_Arquivo_VCF = files.upload()
 
 Obs.: Qualquer arquivo VCF que se encaixe no modelo acima que esteja na sua máquina, você pode utilizar.
 
-**Verifivcação do VCF - executando o script `!zgrep -cv "3"` + caminho onde está seu vcf**
+**Verifivcação do VCF - executando o script `!zgrep -cv "#"` + caminho onde está seu vcf**
 
 Exemplo:
 ```
