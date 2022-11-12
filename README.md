@@ -1,4 +1,4 @@
-# **SomatiVEP_v01-2022**🔬 <!-- omit in toc -->
+# **SomatiVEP_v01-2022**🔬 
 Pipeline para Anotação de Arquivo VCF utilizando o  Ensembl Variant Effect Predictor(VEP) version 105.0 via Google Colab
 
   ***SomatiVEP_v01** é de código aberto e está disponível no GitHub* 
@@ -126,16 +126,17 @@ Seu_Arquivo_VCF = files.upload()
 
 Obs.: Qualquer arquivo VCF que se encaixe no modelo acima que esteja na sua máquina, você pode utilizar.
 
-**Verifivcação do VCF - executando o script `!zgrep -cv "#"` + caminho onde está seu vcf**
+**Verifivcação do VCF --> quantas variantes possui - executando o script `!zgrep -cv "#"` + caminho onde está seu vcf**
 
 Exemplo:
 ```
 !zgrep -cv "#" /content/drive/sua_Pasta/homo_sapiens_refseq/105_GRCh37/TESTE.filtered.vcf.gz 
 ```
+![image](https://user-images.githubusercontent.com/57289531/201492084-a7b3cd5b-4cec-4c2b-94c4-9db2beda3e59.png)
 
 > # **Aplicação**
 
-Documentação para VEP:
+Documentação para VEP \
 Disponível em: https://www.ensembl.org/info/docs/tools/vep/script/vep_options.html#basic
 
 **Aplicar VEP para filtrar arquivo VCF**
@@ -163,7 +164,25 @@ Disponível em: https://www.ensembl.org/info/docs/tools/vep/script/vep_options.h
 
 *Tempo de Instalação: ~6-8 minuto --> 17.151 variantes (WP312.filtered.vcf.gz)*
 
-*Linha de código para conferir o ouput gerado*
+*Linha de código para conferir o ouput gerado:*
 ```
 !grep -v "##" /content/drive/NomePasta_Output.vcf.tsv 
 ```
+
+**Aplicar código para gerar uma tabela pela qual poderá filtrar suas variantes**
+```
+import pandas as pd
+import csv
+tabela = pd.read_csv('/content/drive/Shareddrives/T4-2022/GuilhermeBueno/NOVEMBRO2022/WP312.filtered.vcf.tsv', sep='\t', skiprows=38)
+df = pd.DataFrame(tabela)
+df
+```
+
+> # **Contato*
+
+Email: gbueno0331@gmail.com
+Instagram: @gbuen0_
+
+Agradecimento especial pela inspiração do Pipeline para: \
+Keren Xu \
+https://github.com/XUKEREN/vcfannotatoR/edit/main/README.md
