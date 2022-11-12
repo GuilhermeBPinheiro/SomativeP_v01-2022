@@ -1,4 +1,4 @@
-# **SomatiVEP_v01-2022** <!-- omit in toc -->
+# **SomatiVEP_v01-2022**🔬 <!-- omit in toc -->
 Pipeline para Anotação de Arquivo VCF utilizando o  Ensembl Variant Effect Predictor(VEP) version 105.0 via Google Colab
 
   ***SomatiVEP_v01** é de código aberto e está disponível no GitHub* 
@@ -103,7 +103,7 @@ cd ensembl-vep-105.0/
 
 **C. Arquivo Fasta e referência Homo Sapiens**
 
-Agradecimento especial ao profissional *Renato Puga* pelo fornecimento do material.
+Agradecimento especial ao profissional **Renato Puga**👀 pelo fornecimento do material.
 
 Disponível em: https://drive.google.com/drive/folders/1s_UInfwIbATc8qEw4pBbT5w-Tdb9P2MF
 
