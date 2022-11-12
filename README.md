@@ -50,7 +50,7 @@ SomatiVEP_v01 precisa ter as seguintes requisitos:
   mkdir analise
   ```
   Obs1.: Mova os diretórios para dentro do drive utilizando o comando `mv` + nomes_direitorios; \
-  Obs2.: É possível você crie já as pastas necessárias dentro do seu Google Drive e quando você linkar com o ambiente de nuvem, terá já o ambiente para receber seus outputs.
+  Obs2.: É possível você crie já as pastas necessárias dentro do seu Google Drive e quando você linkar com o ambiente de nuvem, terá já o ambiente para receber seus outputs. \
   Obs.3: Para confirmar que o diretório que será utilizado é o que queremos, podemos usar: `%%bash` + `pwd`
   
 > ## *Instalar Programas*
