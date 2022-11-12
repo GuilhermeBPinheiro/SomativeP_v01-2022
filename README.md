@@ -135,6 +135,9 @@ Exemplo:
 
 > # **Aplicação**
 
+Documentação para VEP:
+Disponível em: https://www.ensembl.org/info/docs/tools/vep/script/vep_options.html#basic
+
 **Aplicar VEP para filtrar arquivo VCF**
 
 ```
@@ -142,7 +145,7 @@ Exemplo:
 ./ensembl-vep-105.0/vep  \
   --fork 3 \
 	-i /content/drive/SeuArquivo.vcf.gz \
-	-o /content/drive/NomePasta.vcf.tsv \
+	-o /content/drive/NomePasta_Output.vcf.tsv \
   --dir_cache /content/drive/Shareddrives/T4-2022/ \
   --fasta /content/drive/Shareddrives/T4-2022/homo_sapiens_refseq/Homo_sapiens_assembly19.fasta \
   --cache --offline --assembly GRCh37 --refseq  \
@@ -162,5 +165,5 @@ Exemplo:
 
 *Linha de código para conferir o ouput gerado*
 ```
-!grep -v "##" /content/drive/Shareddrives/T4-2022/GuilhermeBueno/NOVEMBRO2022/WP312.filtered.vcf.tsv
+!grep -v "##" /content/drive/NomePasta_Output.vcf.tsv 
 ```
