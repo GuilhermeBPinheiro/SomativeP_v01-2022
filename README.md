@@ -178,11 +178,10 @@ df = pd.DataFrame(tabela)
 df
 ```
 
-> # **Contato*
+> # **Contato**
 
-Email: gbueno0331@gmail.com
+Email: gbueno0331@gmail.com \
 Instagram: @gbuen0_
 
-Agradecimento especial pela inspiração do Pipeline para: \
-Keren Xu \
-https://github.com/XUKEREN/vcfannotatoR/edit/main/README.md
+**Agradecimento especial pela inspiração do Pipeline para:** \
+Keren Xu - Acesse seu perfil: https://github.com/XUKEREN/vcfannotatoR/edit/main/README.md
