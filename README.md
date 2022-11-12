@@ -141,8 +141,8 @@ Exemplo:
 %%bash
 ./ensembl-vep-105.0/vep  \
   --fork 3 \
-	-i /content/drive/Shareddrives/T4-2022/homo_sapiens_refseq/105_GRCh37/WP312.filtered.vcf.gz \
-	-o /content/drive/Shareddrives/T4-2022/GuilhermeBueno/NOVEMBRO2022/WP312.filtered.vcf.tsv \
+	-i /content/drive/SeuArquivo.vcf.gz \
+	-o /content/drive/NomePasta.vcf.tsv \
   --dir_cache /content/drive/Shareddrives/T4-2022/ \
   --fasta /content/drive/Shareddrives/T4-2022/homo_sapiens_refseq/Homo_sapiens_assembly19.fasta \
   --cache --offline --assembly GRCh37 --refseq  \
@@ -159,3 +159,8 @@ Exemplo:
 6. Configurações de filtragem e análise do arquivo VCF
 
 *Tempo de Instalação: ~6-8 minuto --> 17.151 variantes (WP312.filtered.vcf.gz)*
+
+*Linha de código para conferir o ouput gerado*
+```
+!grep -v "##" /content/drive/Shareddrives/T4-2022/GuilhermeBueno/NOVEMBRO2022/WP312.filtered.vcf.tsv
+```
