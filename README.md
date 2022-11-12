@@ -133,7 +133,7 @@ Exemplo:
 !zgrep -cv "#" /content/drive/sua_Pasta/homo_sapiens_refseq/105_GRCh37/TESTE.filtered.vcf.gz 
 ```
 
-> # **Alicação**
+> # **Aplicação**
 
 **Aplicar VEP para filtrar arquivo VCF**
 
